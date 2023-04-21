@@ -6,3 +6,26 @@ bin/
 
 # Ignore all tmp files
 *.tmp
+
+# Ignore all files with a .tmp extension
+*.tmp
+
+# Ignore all files with a .tmp or .bak extension
+*.{tmp,bak}
+
+# Ignore all files with a .tmp or .bak extension in the temp directory
+temp/*.{tmp,bak}
+
+# Ignore all files in the temp directory
+temp/
+
+# Ignore all files in the temp directory and any of its subdirectories
+temp/**
+
+# Ignore all files in the temp directory and any of its subdirectories
+# except for the .gitignore file
+temp/**/*
+
+# Ignore all files in the temp directory and any of its subdirectories
+# except for the .gitignore file and the .gitkeep file
+temp/**/*.*
